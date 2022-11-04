@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import mobileBG from './images/images/bg-mobile.svg';
+import deskBG from './images/images/bg-desktop.svg';
+import logo from './images/images/logo.svg';
+import mockup from './images/images/illustration-mockups.svg';
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<div className="h-[100vh] w-full flex flex-col justify-center items-center bg-[url('./images/images/bg-mobile.svg')] lg:bg-[url('./images/images/bg-desktop.svg')] bg-no-repeat bg-violetHuddle relative border-2 border-red-900">
+			<img
+				src={logo}
+				alt='logo'
+				className='self-start justify-self-start absolute top-5 left-10 w-40'
+			/>
+			<div className='flex flex-col justify-center items-center lg:flex-row'>
+				<div className='p-4 mt-32 max-w-[70%] min-w-[75%] lg:max-w-[75%] lg:min-w-[50%] lg:ml-20'>
+					<img src={mockup} alt='mockup' />
+				</div>
+
+				<div>
+					<div className='text-center lg:text-left text-3xl mt-10 text-white font-bold p-4'>
+						<h1>Build The Community Your Fans Will Love</h1>
+					</div>
+					<div className='text-center lg:text-left  text-white p-4'>
+						<p className='lg:mr-40 '>
+							Huddle re-imagines the way we build communities. You have a voice,
+							but so does your audience. Create connections with your users as
+							you engage in genuine discussion.
+						</p>
+					</div>
+
+					<div className='text-center lg:text-left'>
+						<button className='w-[15em] h-12 rounded-3xl bg-white text-violetHuddle mt-8 lg:ml-2 hover:bg-soft-magenta hover:text-white'>
+							Register
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div className='h-10 mb-10 w-full flex text-white text-2xl justify-center items-center gap-8'>
+				{/* <img src={<FaFacebook />} alt='' /> */}
+				<FaFacebook className='cursor-pointer hover:text-soft-magenta' />
+				<FaTwitter className='cursor-pointer hover:text-soft-magenta' />
+				<FaInstagram className='cursor-pointer hover:text-soft-magenta' />
+			</div>
+		</div>
+	);
+};
 
 export default App;
