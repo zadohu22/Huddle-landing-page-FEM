@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const App = () => {
   return (
-    <div className="h-[100vh] w-full flex flex-col justify-center items-center bg-[url('./images/images/bg-mobile.svg')] lg:bg-[url('./images/images/bg-desktop.svg')] bg-no-repeat bg-violetHuddle relative border-2 border-red-900">
+    <div className="h-[100vh] w-full flex flex-col justify-center items-center bg-[url('./images/images/bg-mobile.svg')] sm:bg-[url('./images/images/bg-desktop.svg')] bg-no-repeat bg-violetHuddle relative">
       <img
         src={logo}
         alt='logo'

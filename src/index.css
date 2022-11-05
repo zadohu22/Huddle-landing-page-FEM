@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
 html, body, #root{
   width: 100%;
   min-height: 100%;
@@ -11,5 +13,12 @@ body{
   min-height: 100%;
 }
 
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+
+p, button{
+  font-family: 'Open Sans', sans-serif;
+}
 
 
