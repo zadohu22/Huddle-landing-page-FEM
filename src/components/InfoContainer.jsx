@@ -2,12 +2,12 @@ import React from "react";
 
 const InfoContainer = () => {
   return (
-    <div className='relative info-container w-full h-full flex flex-col justify-center items-center mb-20 lg:mb-0'>
+    <div className='relative w-full h-full flex flex-col justify-center items-center mb-20 lg:mb-0'>
       <div className='text-center md:text-left lg:self-start text-3xl mt-10 text-white font-bold p-4'>
         <h1>Build The Community Your Fans Will Love</h1>
       </div>
-      <div className='text-center lg:text-left  text-white p-4'>
-        <p className='lg:mr-40 '>
+      <div className='text-center flex flex-col justify-center items-center lg:text-left w-full text-white p-4'>
+        <p className='lg:mr-40 max-w-[80%]'>
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
