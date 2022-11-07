@@ -12,7 +12,7 @@ const InfoContainer = () => {
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
-        <div className='text-center lg:text-left lg:mt-8 lg:ml-2 md:relative md:top-0'>
+        <div className='w-full text-center lg:text-left lg:mt-8 lg:ml-2 md:relative md:top-0 md:left-0'>
           <button className='w-[15em] h-12 rounded-3xl mt-8 bg-white text-violetHuddle hover:bg-soft-magenta hover:text-white'>
             Register
           </button>
