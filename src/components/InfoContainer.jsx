@@ -2,7 +2,7 @@ import React from "react";
 
 const InfoContainer = () => {
   return (
-    <div className='relative w-full h-full flex flex-col justify-center items-center mb-20 lg:mb-0'>
+    <div className='relative w-full h-full flex flex-col justify-center items-center bottom-12 lg:mb-0'>
       <div className='text-center md:text-left lg:self-start text-3xl mt-10 text-white font-bold p-4'>
         <h1>Build The Community Your Fans Will Love</h1>
       </div>
